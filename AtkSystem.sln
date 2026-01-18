@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtkSystem.Core", "AtkSystem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtkSystem.Infra", "AtkSystem.Infra\AtkSystem.Infra.csproj", "{B6D4F7A3-6116-4F30-8DAB-0979D99FD299}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtkSystem.Tests", "AtkSystem.Tests\AtkSystem.Tests.csproj", "{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{B6D4F7A3-6116-4F30-8DAB-0979D99FD299}.Release|x64.Build.0 = Release|Any CPU
 		{B6D4F7A3-6116-4F30-8DAB-0979D99FD299}.Release|x86.ActiveCfg = Release|Any CPU
 		{B6D4F7A3-6116-4F30-8DAB-0979D99FD299}.Release|x86.Build.0 = Release|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Debug|x64.Build.0 = Debug|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Debug|x86.Build.0 = Debug|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Release|x64.ActiveCfg = Release|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Release|x64.Build.0 = Release|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Release|x86.ActiveCfg = Release|Any CPU
+		{39C6D47A-E241-4D58-A7D9-CF811BF49C7C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

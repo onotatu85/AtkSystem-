@@ -9,10 +9,17 @@
 publish/
 appsettings.Development.json
 appsettings.Production.json
-# appsettings.json contains secrets in some workflows, but here we keep it for now or user request. 
-# Usually we ignore appsettings.json, but user might want it. Let's exclude publish folder specifically.
-# Exclude brain and agent folders if specific to this agent
 .gemini/
 .agent/
 build_log.txt
 build_error.log
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Playwright
+test-results/
+playwright-report/
+# We want to keep evidence/ but maybe ignore failed test screenshots if they are bulky?
+# The user wants "evidence results", let's keep everything in evidence folder.
